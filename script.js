@@ -17,7 +17,8 @@ function calculate(){
         if(display.value==""){
             display.value="0";
         }else{
-            display.value="Error";
+            alert("Invalid expression");
+            display.value="";
         }
     }
 }
